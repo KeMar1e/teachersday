@@ -279,7 +279,7 @@ async function show(i) {
   const s = $("#stage");
   if (a === "envelope") {
     s.innerHTML =
-      '<button class="env" aria-label="Open the envelope"><i class="flap"></i><span class="seal">💌</span></button><p class="mono hint">tap to open</p>';
+      '<button class="env" aria-label="Open the envelope"><i class="flap"></i><span class="seal">🩷</span></button><p class="mono hint">tap to open</p>';
     s.querySelector(".env").onclick = async (e) => {
       e.currentTarget.classList.add("open");
       beep(440, 0.2);
