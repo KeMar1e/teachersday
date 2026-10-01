@@ -180,4 +180,46 @@ const teachers = [
     ],
     memories: [],
   },
+
+  {
+    id: "008",
+    username: "maamaleah",
+    password: "22zim9ih",
+    name: "Ma'am Aleah",
+    title: "Professor",
+    messages: [
+      {
+        from: "Student A",
+        text: "Placeholder message. Replace me!",
+        animation: "terminal",
+      },
+      {
+        from: "Student B",
+        text: "Placeholder message. Replace me!",
+        animation: "polaroid",
+      },
+    ],
+    memories: [],
+  },
+
+  {
+    id: "009",
+    username: "sirjayvic",
+    password: "dkx2n7c0",
+    name: "Sir Jayvic",
+    title: "Professor",
+    messages: [
+      {
+        from: "Student A",
+        text: "Placeholder message. Replace me!",
+        animation: "terminal",
+      },
+      {
+        from: "Student B",
+        text: "Placeholder message. Replace me!",
+        animation: "polaroid",
+      },
+    ],
+    memories: [],
+  },
 ];
