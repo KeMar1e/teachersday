@@ -488,7 +488,7 @@ input {
   animation: none;
 }
 .a-flower::before {
-  content: "🪻";
+  content: "💐";
   position: absolute;
   top: -32px;
   left: 50%;
@@ -509,7 +509,7 @@ input {
   animation: spark 1.1s both;
 }
 .a-sparkle::after {
-  content: "✦ ✧ ✦";
+  content: "⸜(｡˃ ᵕ ˂ )⸝♡";
   position: absolute;
   top: 10px;
   left: 20px;
