@@ -424,8 +424,21 @@ input {
   margin: 0.2rem 0 0.8rem;
 }
 .card p {
-  font: italic 1.12rem/1.65 var(--serif);
-  animation: fade 1.2s 0.5s both;
+  max-height: 45vh; /* fallback for older browsers */
+  max-height: 45dvh; /* about 45% of the phone screen height */
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  padding-right: 8px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--vio) transparent;
+}
+.card p::-webkit-scrollbar {
+  width: 4px;
+}
+.card p::-webkit-scrollbar-thumb {
+  background: var(--vio);
+  border-radius: 4px;
 }
 .deco {
   position: absolute;
