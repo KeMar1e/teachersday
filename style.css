@@ -488,7 +488,7 @@ input {
   animation: none;
 }
 .a-flower::before {
-  content: "💐";
+  content: "🌺🌻🪻🌹🌼";
   position: absolute;
   top: -32px;
   left: 50%;
