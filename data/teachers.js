@@ -47,8 +47,8 @@ const teachers = [
         animation: "circuit",
       },
       {
-        from: "Student G",
-        text: "We hope this makes you smile today.",
+        from: "K",
+        text: "Thank you po for teaching us teh logic gates, nagagamit na po namin hehe.",
         animation: "sparkle",
       },
     ],
@@ -67,9 +67,9 @@ const teachers = [
     title: "Professor",
     messages: [
       {
-        from: "Student A",
-        text: "Placeholder message. Replace me!",
-        animation: "envelope",
+        from: "Secret",
+        text: "Happy Teacher's Day po Ma'am. Pasensya na po medjo late, nakalocked in po lahat sa thesis. Wish us luck po sa defense.🫶",
+        animation: "flower",
       },
       {
         from: "Student B",
@@ -109,13 +109,18 @@ const teachers = [
     title: "Professor",
     messages: [
       {
-        from: "Student A",
-        text: "Placeholder message. Replace me!",
-        animation: "polaroid",
+        from: "Secret",
+        text: "Sir nakamiss na po yung mga hands on sa klase natin.",
+        animation: "circuit",
       },
       {
-        from: "Student B",
-        text: "Placeholder message. Replace me!",
+        from: "Secret",
+        text: "thank you po Sir for being a good teacher po, you don't know po how much we appreciate yung mga tinuro mo po sa amin simula nung hinandle mo po kami. from the very start po, ung seminar pa lang po, hanggang maging faculty ka po namin, sobrang humanga po lahat sa'yo, saksi po ako kung paano ka po purihin ng mga kaklase ko, na sobrang talino mo po, at mga katagang \"buti na lang andiyan si Sir Errol\", \"iba pag klase ni Sir Errol, talagang may natututunan\" like legit Sir, nahandle mo po kami nung time na di ka pa po man bihasa sa pag pasimple ng idea pero sob knowledgeable mo naman po, and you have improved a lot po from our 1st encounter sa pagtuturo po ng mga concept na sobrang foreign sa amin, Happy Teacher's Day po Sir. You are a respectable teacher who deserve recognition and love from students (syempre from 4A) sana mapamahal ka pa po sa CpE students ikaw po pag-asa ng mga talented freshies pra mag grow po sila <br>ps. thank you po sa pag appreciate sa amin kahit ang nonchalant namin",
+        animation: "message",
+      },
+      {
+        from: "Secret",
+        text: "Sir nakamiss na po yung mga hands on sa klase natin.",
         animation: "circuit",
       },
     ],
