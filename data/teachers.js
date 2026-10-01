@@ -84,7 +84,7 @@ const teachers = [
     messages: [
       {
         from: "anon",
-        text: "Happy Teacher's Day po!🥳<br><br>Thank you so much po for being a part of our CpE journey!<br><br>All my favorite courses have been thought by you po maam and I am immensely grateful for that. 🥰 Mapa-DSA, DBMS and more, sobrang solid po ng lectures hehe. Salamat po Ma'am!",
+        text: "Happy Teacher's Day po!🥳\n\nThank you so much po for being a part of our CpE journey!\n\nAll my favorite courses have been thought by you po maam and I am immensely grateful for that. 🥰 Mapa-DSA, DBMS and more, sobrang solid po ng lectures hehe. Salamat po Ma'am!",
         animation: "polaroid",
       },
     ],
@@ -105,12 +105,12 @@ const teachers = [
       },
       {
         from: "-",
-        text: "thank you po Sir for being a good teacher po, you don't know po how much we appreciate yung mga tinuro mo po sa amin simula nung hinandle mo po kami. from the very start po, ung seminar pa lang po, hanggang maging faculty ka po namin, sobrang humanga po lahat sa'yo, saksi po ako kung paano ka po purihin ng mga kaklase ko, na sobrang talino mo po, at mga katagang \"buti na lang andiyan si Sir Errol\", \"iba pag klase ni Sir Errol, talagang may natututunan\" like legit Sir, nahandle mo po kami nung time na di ka pa po man bihasa sa pag pasimple ng idea pero sob knowledgeable mo naman po, and you have improved a lot po from our 1st encounter sa pagtuturo po ng mga concept na sobrang foreign sa amin, Happy Teacher's Day po Sir. You are a respectable teacher who deserve recognition and love from students (syempre from 4A) sana mapamahal ka pa po sa CpE students ikaw po pag-asa ng mga talented freshies pra mag grow po sila <br>ps. thank you po sa pag appreciate sa amin kahit ang nonchalant namin",
-        animation: "message",
+        text: "thank you po Sir for being a good teacher po, you don't know po how much we appreciate yung mga tinuro mo po sa amin simula nung hinandle mo po kami. from the very start po, ung seminar pa lang po, hanggang maging faculty ka po namin, sobrang humanga po lahat sa'yo, saksi po ako kung paano ka po purihin ng mga kaklase ko, na sobrang talino mo po, at mga katagang \"buti na lang andiyan si Sir Errol\", \"iba pag klase ni Sir Errol, talagang may natututunan\" like legit Sir, nahandle mo po kami nung time na di ka pa po man bihasa sa pag pasimple ng idea pero sob knowledgeable mo naman po, and you have improved a lot po from our 1st encounter sa pagtuturo po ng mga concept na sobrang foreign sa amin, Happy Teacher's Day po Sir. You are a respectable teacher who deserve recognition and love from students (syempre from 4A) sana mapamahal ka pa po sa CpE students ikaw po pag-asa ng mga talented freshies pra mag grow po sila\n\nps. thank you po sa pag appreciate sa amin kahit ang nonchalant namin",
+        animation: "envelope",
       },
       {
         from: "anon",
-        text: "Happy Teacher's Day po!🥳<br><br>Sobrang thankful po namin sa mga lectures ninyo, especially cause literal na nagagamit po namin siya sa thesis!! Especially sa AI training 😆<br><br>Thank you so so much po, very grateful po ako to have been one of your students! 🫶",
+        text: "Happy Teacher's Day po!🥳\n\nSobrang thankful po namin sa mga lectures ninyo, especially cause literal na nagagamit po namin siya sa thesis!! Especially sa AI training 😆\n\nThank you so so much po, very grateful po ako to have been one of your students! 🫶",
         animation: "circuit",
       },
     ],
@@ -126,7 +126,7 @@ const teachers = [
     messages: [
       {
         from: "anon",
-        text: "Happy Teacher's Day po!🥳<br><br>Sobrang thankful po namin sa mga lectures ninyo, especially cause literal na nagagamit po namin siya sa thesis!! Especially sa AI training 😆<br><br>Thank you so so much po, very grateful po ako to have been one of your students! 🫶",
+        text: "Happy Teacher's Day po!🥳\n\nSobrang thankful po namin sa mga lectures ninyo, especially cause literal na nagagamit po namin siya sa thesis!! Especially sa AI training 😆\n\nThank you so so much po, very grateful po ako to have been one of your students! 🫶",
         animation: "circuit",
       },
     ],
