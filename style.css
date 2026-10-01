@@ -440,6 +440,23 @@ input {
   background: var(--vio);
   border-radius: 4px;
 }
+.card p { white-space: pre-line; }
+#stage {
+  flex: 1 1 0; /* take all the free space between the progress bar and the buttons */
+  min-height: 0;
+  padding-top: 34px; /* room for the flowers above the card */
+}
+.card {
+  max-height: 100%; /* never taller than the space available */
+  display: flex;
+  flex-direction: column;
+}
+.card p {
+  flex: 1 1 auto;
+  min-height: 0;
+  max-height: none; /* replaces the old 45dvh rule */
+  overflow-y: auto;
+}
 .deco {
   position: absolute;
   width: 38px;
