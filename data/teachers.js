@@ -15,47 +15,27 @@ const teachers = [
     name: "Sir Lantoria",
     title: "Head",
     messages: [
-    
-      {
-        from: "Student A",
-        text: "Thank you for believing in us even when our code wouldn't compile.",
-        animation: "envelope",
-      },
-      {
-        from: "Student B",
-        text: "Your class made hard topics feel possible.",
-        animation: "polaroid",
-      },
-      {
-        from: "Student C",
-        text: "Thank you for staying patient with every question.",
-        animation: "sticky",
-      },
-      {
-        from: "Student D",
-        text: "Happy Teachers' Day! You are our favorite mentor.",
-        animation: "terminal",
-      },
-      {
-        from: "Student E",
-        text: "You helped us grow, one lesson at a time.",
-        animation: "flower",
-      },
-      {
-        from: "Student F",
-        text: "You connected the dots for us, literally and figuratively.",
-        animation: "circuit",
-      },
       {
         from: "K",
         text: "Thank you po for teaching us teh logic gates, nagagamit na po namin hehe.",
         animation: "sparkle",
       },
+      {
+        from: "K",
+        text: "We enjoy being with you po🥰\n\nKahit na po may mapagka-nonchalant ka po, Im happy in your class po. Somehow hindi po nakakaboring haha",
+        animation: "flower",
+      },
     ],
     
     memories: [
-      // <-- EDIT: put photos in assets/photos/
-      // {image:"assets/photos/teacher1-1.jpg", caption:"One of our favorite memories."}
+      {image:"assets/received_1451343336807404.jpeg", caption:"Compiled with care, thank you po."},
+      {image:"assets/received_3473902136077380.jpeg", caption:"Good times, good people."},
+      {image:"assets/received_2668353443495998.jpeg", caption:"Behind every one of us is a teacher who cared."},
+      {image:"assets/received_2053498625467382.jpeg", caption:"Grateful for every lesson, big and small."},
+      {image:"assets/received_1513296153442062.jpeg", caption:"Hard lessons, happy faces."},
+      {image:"assets/received_1262960305605099.jpeg", caption:"This one is a keeper."},
+      {image:"assets/received_1109830533660744.jpeg", caption:"Smiles all around. ✨"},
+      {image:"assets/received_1055659100298921.jpeg", caption:"Your kindness stayed with us longer than any lesson."},
     ],
   },
 
@@ -67,12 +47,27 @@ const teachers = [
     title: "Professor",
     messages: [
       {
-        from: "Secret",
+        from: "-",
         text: "Happy Teacher's Day po Ma'am. Pasensya na po medjo late, nakalocked in po lahat sa thesis. Wish us luck po sa defense.🫶",
         animation: "flower",
       },
+      {
+        from: "K",
+        text: "Happy Teachers' Day po maam!\n\nThank you po sa mga guiding po samin, at sa patience na binibigay nyo po samin about sa thesis💕 Sana po hindi po magisa sa defense🤞",
+        animation: "sticky",
+      },
     ],
-    memories: [],
+    memories: [
+      {image:"assets/received_809792194801755.jpeg", caption:"Thank you for being you po."},
+      {image:"assets/received_1378144043252528.jpeg", caption:"Moments we'll always remember."},
+      {image:"assets/received_640255185355084.jpeg", caption:"You never just taught. You cared."},
+      {image:"assets/received_658751923440350.jpeg", caption:"Thank you for seeing the best in us."},
+      {image:"assets/received_1109830533660744.jpeg", caption:"Happy faces, happy hearts."},
+      {image:"assets/received_955566532577386.jpeg", caption:"Memory worth keeping."},
+      {image:"assets/received_1352857762709437.jpeg", caption:"Smiles all around. ✨"},
+      {image:"assets/received_1748648509412559.jpeg", caption:"Your kindness stayed with us longer than any lesson."},
+      {image:"assets/received_1501700317538193.jpeg", caption:"You're the best mentor we never had to reboot."},
+    ],
   },
 
   {
@@ -87,8 +82,24 @@ const teachers = [
         text: "Happy Teacher's Day po!🥳\n\nThank you so much po for being a part of our CpE journey!\n\nAll my favorite courses have been thought by you po maam and I am immensely grateful for that. 🥰 Mapa-DSA, DBMS and more, sobrang solid po ng lectures hehe. Salamat po Ma'am!",
         animation: "polaroid",
       },
+      {
+        from: "K",
+        text: "Happy Teachers' Day po maam💕\n\n Nakakalungkot po maam dahil hindi po natuloy po ang ating fieldtrip🥹 Payag naman po sina mama kaso madami po kasing naghindi nung nagpoll, kaya naghindi narin po ako. Sayang po ung bonding time nun",
+        animation: "circuit",
+      },
+      {
+        from: "K",
+        text: "Happy Teachers' Day po! Im grateful po that you are one of our second nanay🥹💕",
+        animation: "sticky",
+      },
     ],
-    memories: [],
+    memories: [
+      {image:"assets/received_599660996383771.jpeg", caption:"Thank you for being you po."},
+      {image:"assets/received_837338712301226.jpeg", caption:"This one is a keeper."},
+      {image:"assets/received_1096283956152729.jpeg", caption:"You taught us to think before we run."},
+      {image:"assets/received_1193765405197013.jpeg", caption:"Smiles all around. ✨"},
+      {image:"assets/received_1423597488940538.jpeg", caption:"Thank you for the great setup and all the support."},
+    ],
   },
 
   {
@@ -99,22 +110,38 @@ const teachers = [
     title: "Professor",
     messages: [
       {
-        from: "-",
-        text: "Sir nakamiss na po yung mga hands on sa klase natin.",
-        animation: "circuit",
+        from: "K",
+        text: "Sir, Happy Teachers' Day po!\n\nThank you po for helping us po sa mga bagay-bagay at sa pagturo po samin, kahit na minsan ay nakaka-overwhelm po ung knowledge nyo po haha.",
+        animation: "sparkle",
+      },
+      {
+        from: "K",
+        text: "Happy Teachers' Day po sir! Sorry po at hindi na rin po tayo nakakapagklase gawa po ng thesis namin, kaya Im grateful po sa patience nyo po samin 🫶",
+        animation: "flower",
       },
       {
         from: "-",
-        text: "thank you po Sir for being a good teacher po, you don't know po how much we appreciate yung mga tinuro mo po sa amin simula nung hinandle mo po kami. from the very start po, ung seminar pa lang po, hanggang maging faculty ka po namin, sobrang humanga po lahat sa'yo, saksi po ako kung paano ka po purihin ng mga kaklase ko, na sobrang talino mo po, at mga katagang `buti na lang andiyan si Sir Errol`, `iba pag klase ni Sir Errol, talagang may natututunan` like legit Sir, nahandle mo po kami nung time na di ka pa po man bihasa sa pag pasimple ng idea pero sob knowledgeable mo naman po, and you have improved a lot po from our 1st encounter sa pagtuturo po ng mga concept na sobrang foreign sa amin, Happy Teacher's Day po Sir. You are a respectable teacher who deserve recognition and love from students (syempre from 4A) sana mapamahal ka pa po sa CpE students ikaw po pag-asa ng mga talented freshies pra mag grow po sila\n\nps. thank you po sa pag appreciate sa amin kahit ang nonchalant namin",
+        text: "Sir nakamiss na po yung mga hands on sa klase natin.",
+        animation: "sticky",
+      },
+      {
+        from: "-",
+        text: "thank you po Sir for being a good teacher po, you don't know po how much we appreciate yung mga tinuro mo po sa amin simula nung hinandle mo po kami. from the very start po, ung seminar pa lang po, hanggang maging faculty ka po namin, sobrang humanga po lahat sa'yo, saksi po ako kung paano ka po purihin ng mga kaklase ko, na sobrang talino mo po, at mga katagang \"buti na lang andiyan si Sir Errol\", \"iba pag klase ni Sir Errol, talagang may natututunan\" like legit Sir, nahandle mo po kami nung time na di ka pa po man bihasa sa pag pasimple ng idea pero sob knowledgeable mo naman po, and you have improved a lot po from our 1st encounter sa pagtuturo po ng mga concept na sobrang foreign sa amin, Happy Teacher's Day po Sir. You are a respectable teacher who deserve recognition and love from students (syempre from 4A) sana mapamahal ka pa po sa CpE students ikaw po pag-asa ng mga talented freshies pra mag grow po sila\n\nps. thank you po sa pag appreciate sa amin kahit ang nonchalant namin",
         animation: "envelope",
       },
       {
         from: "anon",
         text: "Happy Teacher's Day po!🥳\n\nSobrang thankful po namin sa mga lectures ninyo, especially cause literal na nagagamit po namin siya sa thesis!! Especially sa AI training 😆\n\nThank you so so much po, very grateful po ako to have been one of your students! 🫶",
-        animation: "polaroid",
+        animation: "circuit",
       },
     ],
-    memories: [],
+    memories: [
+      {image:"assets/received_2320575218314033.jpeg", caption:"Thank you for being you po."},
+      {image:"assets/received_1857576344798470.jpeg", caption:"We won't forget this day."},
+      {image:"assets/received_831924812708158.jpeg", caption:"Class dismissed, memories kept."},
+      {image:"assets/received_1089343346331833.jpeg", caption:"Your kindness stayed with us longer than any lesson."},
+      {image:"assets/FB_IMG_1732440650078.jpg", caption:"A thank you is too small, but we mean it big."},
+    ],
   },
 
   {
@@ -129,8 +156,19 @@ const teachers = [
         text: "Happy Teacher's Day po!🥳\n\nSobrang thankful po namin sa mga lectures ninyo, especially cause literal na nagagamit po namin siya sa thesis!! Especially sa AI training 😆\n\nThank you so so much po, very grateful po ako to have been one of your students! 🫶",
         animation: "circuit",
       },
+      {
+        from: "K",
+        text: "Happy Teachers' day po maam 🫶Thank you po sa patience na binigay nyo po samin at sa mga lesson and guidance na tinuro nyo po samin since 1st year po 🥰",
+        animation: "sticky",
+      },
     ],
-    memories: [],
+    memories: [
+      {image:"assets/received_758407239740308.jpeg", caption:"Because of you, we kept going."},
+      {image:"assets/received_1084141366873893.jpeg", caption:"Grateful for every lesson, big and small."},
+      {image:"assets/received_1109830533660744.jpeg", caption:"Good times, good people."},
+      {image:"assets/received_1193765405197013.jpeg", caption:"Smiles all around. ✨"},
+      {image:"assets/received_652074444289558.jpeg", caption:"Class dismissed, memories kept."},
+    ],
   },
 
   {
@@ -157,12 +195,17 @@ const teachers = [
     title: "Professor",
     messages: [
       {
-        from: "Student A",
+        from: "K",
         text: "Placeholder message. Replace me!",
         animation: "terminal",
       },
     ],
-    memories: [],
+    memories: [
+      {image:"assets/IMG_9426.jpeg", caption:"This one is a keeper."},
+      {image:"assets/IMG_3188.HEIC", caption:"We won't forget this day."},
+      {image:"assets/IMG_3222.HEIC", caption:"Smiles all around. ✨"},
+      {image:"assets/received_3039942902854768.jpeg", caption:"Thank you for being you po."},
+    ],
   },
 
   {

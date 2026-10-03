@@ -322,21 +322,34 @@ hooks["s-mem"] = () => {
     d.className = "polaroid";
     d.style.setProperty("--i", i);
     d.style.setProperty("--rot", (i % 2 ? 2.5 : -2.5) + "deg");
-    const im = new Image();
-    im.src = m.image;
-    im.alt = m.caption || "A memory with your students";
-    im.loading = "lazy";
-    im.onerror = () => {
-      im.replaceWith(
-        Object.assign(document.createElement("div"), {
-          className: "img",
-          textContent: "💠",
-        }),
-      );
-    };
     const w = document.createElement("div");
     w.className = "img";
-    w.appendChild(im);
+    if (m.video) {
+      // Video memory: {video: "assets/videos/clip.mp4", caption: "..."}
+      const v = document.createElement("video");
+      v.src = m.video;
+      v.controls = true;
+      v.playsInline = true;
+      v.preload = "metadata";
+      if (m.poster) v.poster = m.poster; // optional cover image
+      v.setAttribute("aria-label", m.caption || "A video memory");
+      w.appendChild(v);
+    } else {
+      // Photo memory: {image: "assets/photos/photo.jpg", caption: "..."}
+      const im = new Image();
+      im.src = m.image;
+      im.alt = m.caption || "A memory with your students";
+      im.loading = "lazy";
+      im.onerror = () => {
+        im.replaceWith(
+          Object.assign(document.createElement("div"), {
+            className: "img",
+            textContent: "💠",
+          }),
+        );
+      };
+      w.appendChild(im);
+    }
     const cp = document.createElement("figcaption");
     cp.textContent = m.caption || "";
     d.append(w, cp);
