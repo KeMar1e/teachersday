@@ -17,7 +17,7 @@ const teachers = [
     messages: [
       {
         from: "K",
-        text: "Thank you po for teaching us teh logic gates, nagagamit na po namin hehe.",
+        text: "Thank you po for teaching us the logic gates, nagagamit na po namin hehe.",
         animation: "sparkle",
       },
       {
@@ -84,7 +84,7 @@ const teachers = [
       },
       {
         from: "K",
-        text: "Happy Teachers' Day po maam💕\n\n Nakakalungkot po maam dahil hindi po natuloy po ang ating fieldtrip🥹 Payag naman po sina mama kaso madami po kasing naghindi nung nagpoll, kaya naghindi narin po ako. Sayang po ung bonding time nun",
+        text: "Happy Teachers' Day po maam💕\n\n Nakakalungkot po maam dahil hindi po natuloy po ang ating fieldtrip🥹 Sayang po ung bonding time nun",
         animation: "circuit",
       },
       {
@@ -125,14 +125,14 @@ const teachers = [
         animation: "sticky",
       },
       {
-        from: "-",
-        text: "thank you po Sir for being a good teacher po, you don't know po how much we appreciate yung mga tinuro mo po sa amin simula nung hinandle mo po kami. from the very start po, ung seminar pa lang po, hanggang maging faculty ka po namin, sobrang humanga po lahat sa'yo, saksi po ako kung paano ka po purihin ng mga kaklase ko, na sobrang talino mo po, at mga katagang \"buti na lang andiyan si Sir Errol\", \"iba pag klase ni Sir Errol, talagang may natututunan\" like legit Sir, nahandle mo po kami nung time na di ka pa po man bihasa sa pag pasimple ng idea pero sob knowledgeable mo naman po, and you have improved a lot po from our 1st encounter sa pagtuturo po ng mga concept na sobrang foreign sa amin, Happy Teacher's Day po Sir. You are a respectable teacher who deserve recognition and love from students (syempre from 4A) sana mapamahal ka pa po sa CpE students ikaw po pag-asa ng mga talented freshies pra mag grow po sila\n\nps. thank you po sa pag appreciate sa amin kahit ang nonchalant namin",
-        animation: "envelope",
-      },
-      {
         from: "anon",
         text: "Happy Teacher's Day po!🥳\n\nSobrang thankful po namin sa mga lectures ninyo, especially cause literal na nagagamit po namin siya sa thesis!! Especially sa AI training 😆\n\nThank you so so much po, very grateful po ako to have been one of your students! 🫶",
         animation: "circuit",
+      },
+      {
+        from: "-",
+        text: "thank you po Sir for being a good teacher po, you don't know po how much we appreciate yung mga tinuro mo po sa amin simula nung hinandle mo po kami. from the very start po, ung seminar pa lang po, hanggang maging faculty ka po namin, sobrang humanga po lahat sa'yo, saksi po ako kung paano ka po purihin ng mga kaklase ko, na sobrang talino mo po, at mga katagang \"buti na lang andiyan si Sir Errol\", \"iba pag klase ni Sir Errol, talagang may natututunan\" like legit Sir, nahandle mo po kami nung time na di ka pa po man bihasa sa pag pasimple ng idea pero sob knowledgeable mo naman po, and you have improved a lot po from our 1st encounter sa pagtuturo po ng mga concept na sobrang foreign sa amin, Happy Teacher's Day po Sir. You are a respectable teacher who deserve recognition and love from students (syempre from 4A) sana mapamahal ka pa po sa CpE students ikaw po pag-asa ng mga talented freshies pra mag grow po sila\n\nps. thank you po sa pag appreciate sa amin kahit ang nonchalant namin",
+        animation: "envelope",
       },
     ],
     memories: [
@@ -140,7 +140,8 @@ const teachers = [
       {image:"assets/received_1857576344798470.jpeg", caption:"We won't forget this day."},
       {image:"assets/received_831924812708158.jpeg", caption:"Class dismissed, memories kept."},
       {image:"assets/received_1089343346331833.jpeg", caption:"Your kindness stayed with us longer than any lesson."},
-      {image:"assets/FB_IMG_1732440650078.jpg", caption:"A thank you is too small, but we mean it big."},
+      {image:"assets/received_1161883069145283.jpeg", caption:"Every success of ours has your commit history."},
+      {image:"assets/FB_IMG_1732440650078.jpg", caption:"Thank you for the great setup and all the support."},
     ],
   },
 
@@ -151,11 +152,6 @@ const teachers = [
     name: "Ma'am Jonah",
     title: "Professor",
     messages: [
-      {
-        from: "anon",
-        text: "Happy Teacher's Day po!🥳\n\nSobrang thankful po namin sa mga lectures ninyo, especially cause literal na nagagamit po namin siya sa thesis!! Especially sa AI training 😆\n\nThank you so so much po, very grateful po ako to have been one of your students! 🫶",
-        animation: "circuit",
-      },
       {
         from: "K",
         text: "Happy Teachers' day po maam 🫶Thank you po sa patience na binigay nyo po samin at sa mga lesson and guidance na tinuro nyo po samin since 1st year po 🥰",
@@ -179,12 +175,14 @@ const teachers = [
     title: "Professor",
     messages: [
       {
-        from: "Student A",
-        text: "Placeholder message. Replace me!",
+        from: "K",
+        text: "Happy Teachers' Day Maam 💕\n\nThank you po sa patience na binigay nyo po samin at sa mga lesson and guidance na tinuro nyo po samin 🥰",
         animation: "flower",
       },
     ],
-    memories: [],
+    memories: [
+      {image:"assets/IMG_9426.jpeg", caption:"This one is a keeper."},
+    ],
   },
 
   {
@@ -196,32 +194,37 @@ const teachers = [
     messages: [
       {
         from: "K",
-        text: "Placeholder message. Replace me!",
+        text: "Happy Teachers' Day po!\n\nWe don't really have much encounter pa po but we are really grateful sa mga papers po ninyo, without po kasi nun baka hindi po kami nakapasa ng 3rd year. Also po thank you sa mga diniscuss nyo po sa seminar, you help me realise po kung ano po talaga ung gusto kong tahakin.\n\nThank you po ulit 🫶",
         animation: "terminal",
       },
     ],
     memories: [
       {image:"assets/IMG_9426.jpeg", caption:"This one is a keeper."},
-      {image:"assets/IMG_3188.HEIC", caption:"We won't forget this day."},
-      {image:"assets/IMG_3222.HEIC", caption:"Smiles all around. ✨"},
+      {image:"assets/IMG_3188.jpg", caption:"We won't forget this day."},
+      {image:"assets/IMG_3222.jpg", caption:"Smiles all around. ✨"},
       {image:"assets/received_3039942902854768.jpeg", caption:"Thank you for being you po."},
     ],
   },
 
   {
     id: "008",
-    username: "maamaleah",
+    username: "maamalea",
     password: "22zim9ih",
     name: "Ma'am Aleah",
     title: "Professor",
     messages: [
       {
-        from: "Student A",
-        text: "Placeholder message. Replace me!",
-        animation: "terminal",
+        from: "K",
+        text: "Happy Teachers' day po maam 🫶 Thank you po sa patience na binigay nyo po samin at sa mga lesson and guidance na tinuro nyo po samin since 1st year po 🥰",
+        animation: "circuit",
       },
     ],
-    memories: [],
+    memories: [
+      {image:"assets/received_1854403608756187.jpeg", caption:"So pretty as always 💕"},
+      {image:"assets/received_1110385924141753.jpeg", caption:"Always grateful."},
+      {image:"assets/received_1193765405197013.jpeg", caption:"Smiles all around. ✨"},
+      {image:"assets/received_3473902136077380.jpeg", caption:"Memory worth keeping."},
+    ],
   },
 
   {
@@ -232,11 +235,23 @@ const teachers = [
     title: "Professor",
     messages: [
       {
-        from: "Student A",
-        text: "Placeholder message. Replace me!",
-        animation: "terminal",
+        from: "K",
+        text: "Happy Teachers' Day po sir!\n\nStay jolly as ever po, nakakahawa po kasi kaya sana mahawaan nyo po ung mga darating pang mga CpE 🫶",
+        animation: "flower",
+      },
+      {
+        from: "K",
+        text: "I enjoy the classes we had po nung 1st year pa po kami. Thank you po sir 🥰",
+        animation: "sticky",
       },
     ],
-    memories: [],
+    memories: [
+      {image:"assets/received_1218722836958318.jpeg", caption:"Always keep smiling po 🤗"},
+      {image:"assets/IMG20231012110727.jpg", caption:"Moments we'll always remember."},
+      {image:"assets/received_1926650568273354.jpeg", caption:"Thank you for never giving up on us."},
+      {image:"assets/received_1193765405197013.jpeg", caption:"Smiles all around. ✨"},
+      {video: "assets/received_3535748673384662.mp4", caption: "Yes, we were paying attention. Mostly." },
+      {image:"assets/received_1320226239751250.jpeg", caption:"Hard lessons, happy faces."},
+    ],
   },
 ];
